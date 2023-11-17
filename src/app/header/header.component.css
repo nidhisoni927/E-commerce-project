@@ -22,3 +22,11 @@
   text-decoration: none;
   color: blueviolet;
 }
+.nav input element.style {
+  flex: 1;
+  color: blueviolet;
+  border: 1px solid blueviolet;
+  height: 35px;
+  border-right: 0px;
+
+}
