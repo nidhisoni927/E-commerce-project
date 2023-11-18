@@ -3,6 +3,7 @@ import {HomeComponent} from "./home/home.component";
 import {SellerAuthComponent} from "./seller-auth/seller-auth.component";
 import {NgModule} from "@angular/core";
 
+
 export const routes: Routes = [
   {
     path:'',
@@ -15,6 +16,9 @@ export const routes: Routes = [
 
 @NgModule(
   {
+
+
+
     imports:[RouterModule.forRoot(routes)],
     exports:[RouterModule]
   })
