@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 import { CommonModule } from '@angular/common';
 import {FormsModule} from "@angular/forms";
 
@@ -9,9 +9,13 @@ import {FormsModule} from "@angular/forms";
   templateUrl: './seller-auth.component.html',
   styleUrl: './seller-auth.component.css'
 })
-export class SellerAuthComponent {
+export class SellerAuthComponent implements OnInit {
+   Constructor(){
 
-  openSignUp() {
+   }
+   ngOnInit() {
+   }
+ // @ts-ignore
+  signUp(data:object):void
 
-  }
 }
