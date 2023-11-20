@@ -1,6 +1,7 @@
 import {Component, OnInit} from '@angular/core';
 import { CommonModule } from '@angular/common';
 import {FormsModule} from "@angular/forms";
+import {SellerService} from "../services/seller.service";
 
 @Component({
   selector: 'app-seller-auth',
@@ -10,12 +11,16 @@ import {FormsModule} from "@angular/forms";
   styleUrl: './seller-auth.component.css'
 })
 export class SellerAuthComponent implements OnInit {
-   Constructor(){
+  private seller: any;
+   Constructor( seller:SellerService){
 
    }
    ngOnInit() {
    }
  // @ts-ignore
-  signUp(data:object):void
+  signUp(data:object):void{
+    console.log(data)
+    this.seller.userSignUp();
+  }
+  }
 
-}

@@ -10,4 +10,8 @@ import { CommonModule } from '@angular/common';
 })
 export class HomeComponent {
 
+  // constructor() {
+  //   console.log("home.component");
+  // }
+
 }
