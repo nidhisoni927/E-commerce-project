@@ -7,10 +7,11 @@ import {HttpClient} from "@angular/common/http";
 export class SellerService {
   private http: any;
 
-  constructor() {}
+  // @ts-ignore
+  constructor(private http:HttpClient) {  }
 
     userSignUp(data:any){
-    return this.http.post('http://localhost:3000/seller-auth')
+    return this.http.post('http://localhost:3000/seller-auth',data)
 
     }
   }
