@@ -12,11 +12,11 @@ export class SellerAuthComponent implements OnInit {
   constructor(private seller: SellerService) {}
 
   ngOnInit(): void {}
-    signUp(data: object): void {
-    this.seller.userSignUp(data).subscribe((result)=>{
-      console.log(result)
-    });
-    }
+
+
+  signUp(value: any) {
+    
+  }
 }
 
 
