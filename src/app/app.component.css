@@ -2,5 +2,12 @@ h1{
   color: mediumblue;
 }
 h2{
-  color: darkgoldenrod;
-}
+  color: black;
+  align-content: center;
+  text-align: center;
+
+}.container{
+  text-align: center;
+  background-color:dodgerblue;
+
+ }
