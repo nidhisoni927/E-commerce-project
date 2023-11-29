@@ -6,13 +6,13 @@ import {AppComponent} from "./app.component";
 
 import {AppRoutingModule} from "./app.routes";
 import {HttpClientModule} from "@angular/common/http";
-import {SellerAuthComponent} from "./seller-auth/seller-auth.component";
+
 
 
 
 @NgModule({
-  declarations: [ SellerAuthComponent
-  ],
+  declarations: []
+  ,
   imports: [
   BrowserModule,
     AppRoutingModule,
