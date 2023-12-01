@@ -8,8 +8,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'E-commerce-project';
-public name="Nidhi";
- constructor() {
- }
+  public name="Nidhi";
+  constructor() {
+  }
 
 }
