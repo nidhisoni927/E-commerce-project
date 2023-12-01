@@ -10,5 +10,8 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './app.component.scss'
 })
 export class AppComponent {
-  title = 'Project-practice';
+  title = 'E-commerce';
+  public name="Nidhi";
+  constructor() {
+  }
 }
