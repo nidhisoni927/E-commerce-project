@@ -16,5 +16,5 @@ import { RouterOutlet } from '@angular/router';
 export class AppComponent {
 
   title = 'E-commerce';
-  todayDate : Date = new Date();
+  userName: string = 'nidhi';
 }
